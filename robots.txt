@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://leoalvtor.github.io/score-mama-web/sitemap.xml
