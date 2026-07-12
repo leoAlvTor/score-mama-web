@@ -16,4 +16,4 @@ Abrir `http://localhost:8080`.
 
 ## App Store
 
-Cuando exista la URL pública, reemplazar el bloque `store-placeholder` de `index.html` por un enlace directo al producto.
+La aplicación está disponible en [App Store](https://apps.apple.com/ec/app/score-mama-2025/id6772249435?l=en-GB).
