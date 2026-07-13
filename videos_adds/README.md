@@ -11,3 +11,5 @@ Orden sugerido de publicación:
 5. Historial y reevaluaciones.
 
 Los videos presentan funciones reales de la aplicación y evitan promesas diagnósticas o terapéuticas.
+
+`mix_audio.sh` normaliza las narraciones a −16 LUFS, agrega los silencios de entrada correspondientes y genera las versiones narradas dentro de `exportados_con_audio/`.
