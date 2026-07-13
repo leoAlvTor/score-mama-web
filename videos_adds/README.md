@@ -13,3 +13,5 @@ Orden sugerido de publicación:
 Los videos presentan funciones reales de la aplicación y evitan promesas diagnósticas o terapéuticas.
 
 `mix_audio.sh` normaliza las narraciones a −16 LUFS, agrega los silencios de entrada correspondientes y genera las versiones narradas dentro de `exportados_con_audio/`.
+
+`optimize_data_entry.sh` crea versiones especiales de los anuncios 01 y 03: acelera únicamente la captura repetitiva de datos y mantiene los resultados visibles para sincronizarlos con la narración.
