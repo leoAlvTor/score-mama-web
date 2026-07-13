@@ -13,7 +13,7 @@
     <title>Score MAMÁ 2025 | Consulta clínica trazable</title>
     <link rel="icon" type="image/png" sizes="512x512" href="assets/brand/score-mama-app-icon.png?v=2" />
     <link rel="apple-touch-icon" href="assets/brand/score-mama-app-icon.png?v=2" />
-    <link rel="stylesheet" href="styles.css?v=2" />
+    <link rel="stylesheet" href="styles.css?v=3" />
   </head>
   <body>
     <a class="skip-link" href="#contenido">Saltar al contenido</a>
@@ -26,6 +26,7 @@
         <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menú</button>
         <div class="nav-links" id="nav-links">
           <a href="#capacidades">Capacidades</a>
+          <a href="#demostraciones">Videos</a>
           <a href="#galeria">Recorrido</a>
           <a href="#seguridad">Seguridad</a>
           <a href="#guia">Guía</a>
@@ -88,6 +89,43 @@
             <article class="step"><div><b>1</b><h3>Busca</h3><p>Introduce un medicamento, dosis, signo de alarma, anexo o término del protocolo.</p></div><img src="assets/screenshots/busqueda.png" alt="Campo de búsqueda dentro del protocolo" loading="lazy" /></article>
             <article class="step"><div><b>2</b><h3>Revisa</h3><p>Compara coincidencias, campos reconocidos, clave obstétrica y página de origen.</p></div><img src="assets/screenshots/busqueda-resultados.png" alt="Resultados trazables para la búsqueda de oxitocina" loading="lazy" /></article>
             <article class="step"><div><b>3</b><h3>Verifica</h3><p>Lee el contexto y abre directamente el documento fuente.</p></div><img src="assets/screenshots/fuente-pdf.png" alt="Página fuente del protocolo abierta en la aplicación" loading="lazy" /></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section video-section" id="demostraciones">
+        <div class="container">
+          <div class="section-heading video-heading">
+            <p class="eyebrow">Mira cómo funciona</p>
+            <h2>Una función a la vez</h2>
+            <p>Desplázate para recorrer las capacidades principales. Cada video se prepara sólo cuando está cerca de la pantalla y el anterior se pausa automáticamente.</p>
+            <p class="video-audio-note">Los videos comienzan silenciados. Activa el sonido en los controles para escuchar la narración.</p>
+          </div>
+          <div class="video-stories">
+            <article class="video-story">
+              <div class="video-copy"><span>01</span><h3>Cálculo Score MAMÁ</h3><p>Registra los parámetros, revisa las unidades y consulta el resultado con su desglose.</p></div>
+              <video class="feature-video" muted playsinline loop controls preload="none" poster="assets/screenshots/resultado-score.png" data-src="assets/videos/01-calculo-score-mama.mp4" aria-label="Demostración del cálculo de Score MAMÁ"></video>
+            </article>
+            <article class="video-story video-story-reverse">
+              <div class="video-copy"><span>02</span><h3>Búsqueda trazable</h3><p>Localiza una coincidencia, revisa el contexto y abre la página correspondiente del protocolo.</p></div>
+              <video class="feature-video" muted playsinline loop controls preload="none" poster="assets/screenshots/busqueda-resultados.png" data-src="assets/videos/02-busqueda-trazable.mp4" aria-label="Demostración de la búsqueda trazable"></video>
+            </article>
+            <article class="video-story">
+              <div class="video-copy"><span>03</span><h3>Ingreso por voz revisable</h3><p>Dicta los parámetros y comprueba los valores detectados antes de utilizarlos.</p></div>
+              <video class="feature-video" muted playsinline loop controls preload="none" poster="assets/screenshots/dictado-revision.png" data-src="assets/videos/03-calculo-por-voz.mp4" aria-label="Demostración del ingreso de parámetros por voz"></video>
+            </article>
+            <article class="video-story video-story-reverse">
+              <div class="video-copy"><span>04</span><h3>Herramientas clínicas</h3><p>Consulta calculadoras deterministas con fórmulas, valores y unidades visibles.</p></div>
+              <video class="feature-video" muted playsinline loop controls preload="none" poster="assets/screenshots/herramientas-clinicas.png" data-src="assets/videos/04-herramientas-clinicas.mp4" aria-label="Demostración de las herramientas clínicas"></video>
+            </article>
+            <article class="video-story">
+              <div class="video-copy"><span>05</span><h3>Historial</h3><p>Revisa evaluaciones guardadas, su puntaje y el desglose correspondiente.</p></div>
+              <video class="feature-video" muted playsinline loop controls preload="none" poster="assets/screenshots/historial.png" data-src="assets/videos/05-historial.mp4" aria-label="Demostración del historial de evaluaciones"></video>
+            </article>
+            <article class="video-story video-story-reverse">
+              <div class="video-copy"><span>06</span><h3>Reevaluaciones</h3><p>Organiza registros pendientes y accede a las acciones disponibles para su seguimiento.</p></div>
+              <video class="feature-video" muted playsinline loop controls preload="none" poster="assets/screenshots/reevaluaciones.png" data-src="assets/videos/06-reevaluaciones.mp4" aria-label="Demostración del manejo de reevaluaciones"></video>
+            </article>
           </div>
         </div>
       </section>
@@ -177,6 +215,6 @@
       </div>
       <div class="container footer-bottom"><span>© <span id="year"></span> Score MAMÁ</span><span>Herramienta de apoyo. No reemplaza el criterio clínico.</span></div>
     </footer>
-    <script src="script.js"></script>
+    <script src="script.js?v=3"></script>
   </body>
 </html>
