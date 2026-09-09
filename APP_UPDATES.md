@@ -7,7 +7,7 @@ técnicos normales de conexión (por ejemplo la dirección IP).
 
 ## Estado inicial
 
-Ambas plataformas están desactivadas (`enabled: false`). `1.5.0` y `15`
+Ambas plataformas están desactivadas (`enabled: false`). `1.5.0` y `16`
 corresponden al código local preparado, NO certifican publicación en tiendas.
 La primera versión que incluya el lector podrá recibir futuros avisos.
 Las versiones anteriores que no tengan esta funcionalidad no pueden mostrarlos.
@@ -21,7 +21,7 @@ Las versiones anteriores que no tengan esta funcionalidad no pueden mostrarlos.
    una publicación gradual que aún no incluya a todos los destinatarios.
 3. Editar SOLO el bloque de esa plataforma en `app-version.json`:
    - `version`: versión de tres números, por ejemplo `1.6.0`.
-   - `build`: número de compilación como texto, por ejemplo `15`.
+   - `build`: número de compilación como texto, por ejemplo `16`.
    - `enabled`: `true`.
 4. Guardar en `main`, esperar el despliegue de Pages y abrir la URL pública para
    verificar el JSON publicado. La caché puede demorar la propagación.
