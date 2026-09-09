@@ -7,7 +7,7 @@ técnicos normales de conexión (por ejemplo la dirección IP).
 
 ## Estado inicial
 
-Ambas plataformas están desactivadas (`enabled: false`). `1.5.0` y `14`
+Ambas plataformas están desactivadas (`enabled: false`). `1.5.0` y `15`
 corresponden al código local preparado, NO certifican publicación en tiendas.
 La primera versión que incluya el lector podrá recibir futuros avisos.
 Las versiones anteriores que no tengan esta funcionalidad no pueden mostrarlos.

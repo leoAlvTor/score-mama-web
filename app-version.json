@@ -3,11 +3,11 @@
   "ios": {
     "enabled": false,
     "version": "1.5.0",
-    "build": "14"
+    "build": "15"
   },
   "android": {
     "enabled": false,
     "version": "1.5.0",
-    "build": "14"
+    "build": "15"
   }
 }
