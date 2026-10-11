@@ -5,3 +5,6 @@ videos_adds/*.mov
 videos_adds/exportados/
 videos_adds/exportados_con_audio/
 audios/
+
+validation/*.png
+validation/browser-checks.json
